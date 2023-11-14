@@ -1,0 +1,196 @@
+module stalker
+{
+	imports
+	{
+		Base
+	}
+
+		item ArtifactChain
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Arcane Relic,
+		WorldStaticModel =	Chain_WorldItem,
+		Icon		=	ArtifactChain,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactCrystal
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Soul Stone,
+		Icon		=	ArtifactCrystal,
+		WorldStaticModel = Crystal_WorldItem,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactCrystalThorn
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Soulbound,
+		Icon		=	CrystalThorn,
+        	WorldStaticModel =	CrystalThorn_WorldItem,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactEye
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Death Whisper,
+		Icon		=	ArtifactEye,
+		WorldStaticModel = Eye_WorldItem,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactFirefly
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Phoenix Tear,
+		Icon		=	ArtifactFirefly,
+		WorldStaticModel = Firefly_WorldItem,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactFountain
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Radiance,
+		WorldStaticModel =	Fountain_WorldItem,
+		Icon		=	ArtifactFountain,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactHeart
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Dreamweaver,
+		WorldStaticModel =	Heart_WorldItem,
+		Icon		=	ArtifactHeart,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactMamasBeads
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Spell Lock,
+		Icon		=	ArtifactMamasBeads,
+        	WorldStaticModel = MamasBeads_WorldItem,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactPellicle
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Spirit Essence,
+		Icon		=	ArtifactPellicle,
+        	WorldStaticModel =	Pellicle_WorldItem,
+		Tags		=	Artifact,
+	}
+
+
+	item ArtifactSeraphim
+	{
+        DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Arcane Glyph,
+		WorldStaticModel =	Seraphim_WorldItem,
+		Icon		=	ArtifactSeraphim,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactSignet
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Soul Shard,
+		WorldStaticModel =	Signet_WorldItem,
+		Icon		=	ArtifactSignet,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactSnowflake
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Celestial Stone,
+		Icon		=	ArtifactSnowflake,
+		WorldStaticModel =	Snowflake_WorldItem,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactStoneFlower
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Rune Token,
+		Icon		=	ArtifactStoneFlower,
+		WorldStaticModel =	Stoneflower_WorldItem,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactSun
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Sunfire,
+		WorldStaticModel =	Sun_WorldItem,
+		Icon		=	ArtifactSun,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactUrchin
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Ebon Relic,
+		Icon		=	ArtifactUrchin,
+		WorldStaticModel =	Urchin_WorldItem,
+		Tags		=	Artifact,
+	}
+
+	item ArtifactWrenched
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Artifact: Cursed Talisman,
+		WorldStaticModel =	Wrenched_WorldItem,
+		Icon		=	ArtifactWrenched,
+		Tags		=	Artifact,
+	}
+
+	item EchoDetector
+	{
+        	DisplayCategory = Artifact,
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Proto-Radiation detector,
+		Icon		=	EchoDetector,
+		WorldStaticModel =	EchoDetector_WorldItem,
+        	Tags = FindArtifact,
+	}
+
+}
